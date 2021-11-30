@@ -1,0 +1,68 @@
+
+{"intents":[
+    {
+        "label":"greeting",
+        "questions":["Hi", "Hello", "How are you?", "Is anyone there?", "What's up?", "Good morning.", "Good evening.", "Good afternoon.", "Morning!", "How do you do?",
+        "Hey!", "Yo!", "Sup?", "How have you been?", "How are you doing?", "How's it going?", "It's been a while.", "Long-time no see.", "Nice to see you.",
+        "It's great to see you.", "Good to see you.", "Good day!", "What's good?"],
+        "response":"Hey! How can I help you today?"
+    },
+    {
+        "label":"information",
+        "questions":["How can you help me?", "What can you do?", "What do you do?", "What is your name?", "Name?", "Who are you?", "What should I call you?"],
+        "response":"My name is Foodie. I can assist you in placing an order."
+    },
+    {
+        "label":"order",
+        "questions":["Can I place an order?", "I want to order.", "I would like to buy something."],
+        "response": "Sure! What would you like to have?"
+    },
+    {
+        "label":"menu",
+        "questions":["Menu?", "What's on the menu?", "Show me the menu.", "What can I order?", "Suggest me something.", "What should I eat?", "What would be your recommendation?"],
+        "response": "You can order anything from the menu: Chicken Sandwich, Spicy Chicken Sandwich, Fries, Cheesy Fries, Chicken Nuggets, Strawberry milkshake, Chocolate milkshake, Chocloate Chip Cookie and Coke."
+    },
+    {
+        "label":"add",
+        "questions":["Can I get a Chicken Sandwich?", "Could I get a Chicken Sandwich?", "Can I have a Chicken Sandwich?", "I would like to have a Chicken Sandwich.", "Can you add a Chicken Sandwich to the order?",
+        "Give me a Chicken Sandwich.", "Can I get a Spicy Chicken Sandwich?", "Could I get a Spicy Chicken Sandwich?", "Can I have a Spicy Chicken Sandwich?", "I would like to have a Spicy Chicken Sandwich.",
+        "Can you add a Spicy Chicken Sandwich to the order?", "Give me a Spicy Chicken Sandwich.", "Can I get a Fries?", "Could I get a Fries?", "Can I have a Large Fries?", "I would like to have a small Fries?", "Can you add Fries to the order?",
+        "Give me a Fries?", "Can I get a Cheesy Fries?", "Could I get a Cheesy Fries?", "Can I have a Cheesy Fries?", "I would like to have a Cheesy Fries.", "Can you add Cheesy Fries?", "Give me a Cheesy Fries?",
+        "Can I get Chicken Nuggets?", "Could I get Chicken Nuggets?", "Can I have Chicken Nuggets.", "I would like to have Chicken Nuggets?", "Can you add Chicken Nuggets?", "Give me Chicken Nuggets?",
+        "Can I get a Strawberry milkshake?", "Could I get a Strawberry milkshake?", "Can I have a Strawberry milkshake?", "I would like to have a Strawberry milkshake.", "Can you add Strawberry milkshake to the order?",
+        "Give me a Strawberry milkshake?", "Can I get a Chocolate milkshake?", "Could I get a Chocolate milkshake?", "Can I have a Chocolate milkshake?", "I would like to have a Chocolate milkshake.",
+        "Can you add Chocolate milkshake?", "Give me a Chocolate milkshake?", "Can I get a Chocolate Chip Cookie?", "Could I get a Chocolate Chip Cookie?", "Can I have a Chocolate Chip Cookie?",
+        "I would like to have a Chocolate Chip Cookie?", "Can you add Chocolate Chip Cookie?", "Give me a Chocolate Chip Cookie?", "Can I get a Coke?", "Could I get a Coke?", "Can I have a Coke?",
+        "I would like to have a Coke.", "Can you add Coke to the order?", "Give me a Coke?"],
+        "response":"Added to your order"
+    },
+    {
+        "label":"delete",
+        "questions":["Can you remove a Chicken Sandwich?", "Can you delete a Chicken Sandwich?", "Do not give me Chicken Sandwich.", "Can you remove a Spicy Chicken Sandwich?", "Can you delete a Spicy Chicken Sandwich?",
+        "Do not give me Spicy Chicken Sandwich.", "Can you remove a Fries?", "Can you delete a Fries?", "Do not give me Fries.", "Can you remove a Cheesy Fries?", "Can you delete Cheesy Fries?", "Do not give me Cheesy Fries.",
+        "Can you remove Chicken Nuggets?", "Can you delete Chicken Nuggets?", "Do not give me Chicken Nuggets.","Can you remove a Strawberry milkshake?", "Can you delete a Strawberry milkshake?", "Do not give me Strawberry milkshake.",
+        "Can you remove a Chocolate milkshake?", "Can you delete a Chocolate milkshake?", "Do not give me Chocolate milkshake.", "Can you remove a Chocloate Chip Cookie?", "Can you delete a Chocloate Chip Cookie?",
+        "Do not give me Chocloate Chip Cookie.", "Can you remove a Coke?", "Can you delete a Coke.", "Do not give me Coke."],
+        "response":"Removed from your order"
+    },
+
+    {
+        "label":"recipt",
+        "questions":["How much is it?", "I'll count", "Check please", "check here please", "all on one check, please", "Split the bill, please.","Would you put it on separate bills, please?",
+        "Separate checks, please.","can i get the bill please", "Make out separate check, please", "can i get the recipt?"],
+        "response":"then, you total comes to 10 dollars."
+    }
+
+    {
+        "label":"goodbye",
+        "questions":["Thankyou! That would be all.", "Have a great day thanks!", "Bye", "Goodbye!", "See you later!", "See ya!", "see you", "I am off","farewell", "cheerio",
+        "i am out", "take care", "gotta go", "good nignt", "see you soon", "see you next time", "I gotta take off", "talk to you later"],
+        "response":"Thankyou for ordering! see you next time!"
+    }
+
+    {
+        "label":"payment",
+        "questions":["I will pay with card.", "I will pay with cash", "with card", "with cash", "Can I pay by card?", "Can I pay by cash?"],
+        "response":"You have been paid"
+    }
+]}
